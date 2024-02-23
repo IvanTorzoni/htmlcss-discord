@@ -178,6 +178,26 @@ li > a{
     padding: 10px;
 }
 
+/* Backgroung section 2 */
+.bg-section2 {
+    background-color: rgba(211, 211, 211, 1);
+}
+
+
+#wave1 {
+    filter: invert(72%) sepia(0%) saturate(4941%) hue-rotate(288deg) brightness(109%) contrast(114%);
+    display: block;
+    width: 100vw;
+    
+}
+
+#wave2 {
+    filter: invert(72%) sepia(0%) saturate(4941%) hue-rotate(288deg) brightness(109%) contrast(114%);
+    display: block;
+    rotate: 180deg;
+    width: 100vw;
+}
+
 /* Section 2-3-4 shared height backgroung*/
 .bg-section2, .bg-section3, .bg-section4 {
     height: 600px;
