@@ -215,7 +215,7 @@ li > a{
 
 /* stars background */
 #stars{
-    background-image: url(./img/stars.svg);
+    background-image: url(../img/stars.svg);
     padding: 20px;
 }
 
