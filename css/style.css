@@ -144,7 +144,6 @@ li > a{
 
 /* MAIN */
 
-/* Backgroung section 1 */
 /* Section 1,2,3 */
 /* common properties*/
 .space-img, .space-content{
@@ -183,6 +182,126 @@ li > a{
     background-color: rgba(211, 211, 211, 1);
 }
 
+/* Backgroung section 4 */
+.bg-section4 {
+    height: 1000px;
+    background-color: rgba(211, 211, 211, 1);
+}
+
+/* content properties in the section 4 */
+.section-content{
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.image-section{
+    width: 1100px;
+}
+
+/* common properties */
+.section-content > .title-section4, .paragraph{
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+/* Text align in paragraph */
+.paragraph{
+    text-align: center;
+}
+
+/* stars background */
+#stars{
+    background-image: url(./img/stars.svg);
+    padding: 20px;
+}
+
+/* Download button in section 4  */
+.download-section > a{
+    text-decoration: none;
+    background-color: rgb(181, 130, 251);
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+/* Backgroung section 6 */
+.bg-section6 {
+    height: 620px;
+    background-color: rgba(35, 39, 42, 1);
+}
+
+/* Text on top of the colum */
+.column-top-text{
+    font-size: 50px;
+    color: rgb(181, 130, 251);
+    font-weight: bold;
+}
+
+/* italian flag */
+.flag{
+    margin-top: 20px;
+    height: 20px;
+}
+
+/* common properties of text and medias */
+.col-medias, .col-medias-logo{
+    color: white;
+}
+
+/* sitance from scroll bar to media logos */
+.col-medias{
+    margin-bottom: 20px;
+}
+
+.col-medias > span {
+    font-size: 20px;
+}
+
+.col-medias-logo{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    font-size: 30px;
+}
+
+/* Social media column */
+.language-social-media {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
+    width: 60%;
+}
+
+/* light sea green part of the box */
+.discord-general-content{
+    width: 40%;
+    height: 580px;
+    margin: 10px 0;
+    padding: 30px;
+}
+
+.discord-general-content ul li:first-child{
+    color: rgb(181, 130, 251);
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.discord-general-content li{
+    color: white;
+    padding: 15px;
+    font-weight: bold;
+}
+
+hr{
+    height: 5px;
+    margin: 0 200px;
+    background-color: rgba(69, 81, 118, 1);
+    border: none;
+}
 
 #wave1 {
     filter: invert(72%) sepia(0%) saturate(4941%) hue-rotate(288deg) brightness(109%) contrast(114%);
@@ -196,75 +315,6 @@ li > a{
     display: block;
     rotate: 180deg;
     width: 100vw;
-}
-
-/* Section 2-3-4 shared height backgroung*/
-.bg-section2, .bg-section3, .bg-section4 {
-    height: 600px;
-}
-
-/* Section 2 shared box properties */
-.blue-box,
-.pink-box {
-    height: 540px;
-    margin: 30px 0;
-    border: 2px dashed black;
-}
-
-/* blue part of the box */
-.blue-box {
-    width: 60%;
-    background-color: rgba(30, 144, 255, 1);
-}
-
-/* pink part of the box */
-.pink-box {
-    width: 40%;
-    background-color: rgba(255, 192, 203, 1);
-}
-
-/* Backgroung section 3 */
-.bg-section3 {
-    background-color: rgba(211, 211, 211, 1);
-}
-
-/* Backgroung section 5 */
-.bg-section5 {
-    height: 1000px;
-    background-color: rgba(211, 211, 211, 1);
-}
-
-/* Box in section 5 */
-.box-section5 {
-    width: 100%;
-    margin: 30px 0px;
-    height: 940px;
-    background-color: rgba(34, 139, 34, 1);
-    border: 2px dashed black;
-}
-
-/* Backgroung section 6 */
-.bg-section6 {
-    height: 620px;
-    background-color: rgba(35, 39, 42, 1);
-}
-
-/* light coral part of the box */
-.light-coral-box {
-    width: 60%;
-    background-color: rgba(240, 128, 128, 1);
-    height: 580px;
-    margin: 10px 0;
-    border: 2px dashed black;
-}
-
-/* light sea green part of the box */
-.light-sea-green-box {
-    width: 40%;
-    background-color: rgba(32, 178, 170, 1);
-    height: 580px;
-    margin: 10px 0;
-    border: 2px dashed white;
 }
 
 /* footer */
