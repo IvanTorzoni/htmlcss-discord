@@ -19,7 +19,6 @@ ul{
 }
 
 /* HEADER */
-
 /* header */
 header{
     background-image: url(../img/jumbo.png);
@@ -58,11 +57,14 @@ nav{
 }
 
 /* Login Button */
-.login > button {
+.login > a {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
     font-size: 20px;
-    width: 100px;
     padding: 10px;
     border-radius: 30px;
+    color: inherit;
+    text-decoration: none;
 }
 
 /* Link list */
@@ -80,8 +82,6 @@ li > a{
 
 /* Content in header */
 .header-content {
-    display: flex;
-    flex-direction: column;
     width: 70%;
     margin: 50px auto;
     height: 500px;
@@ -124,7 +124,6 @@ li > a{
 /* common properties of download and browser */
 .download, .browser{
     font-size: 20px;
-    background-color: blue;
     text-decoration: none;
     padding: 10px;
     border-radius: 30px;
@@ -148,21 +147,17 @@ li > a{
 /* common properties*/
 .space-img, .space-content{
     height: 600px;
-    margin: 30px 0;
 }
 
 /* image properties */
 .space-img{
     display: flex;
-    justify-content: center;
-    width: 60%;
 }
 
 /* content properties */
 .space-content{
     display: flex;
     flex-direction: column;
-    width: 40%;
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -184,12 +179,12 @@ li > a{
 
 /* Backgroung section 4 */
 .bg-section4 {
-    height: 1000px;
     background-color: rgba(211, 211, 211, 1);
 }
 
 /* content properties in the section 4 */
 .section-content{
+    padding-bottom: 50px;
     display: flex;
     width: 80%;
     flex-direction: column;
@@ -303,18 +298,18 @@ hr{
     border: none;
 }
 
-#wave1 {
+.wave1 {
     filter: invert(72%) sepia(0%) saturate(4941%) hue-rotate(288deg) brightness(109%) contrast(114%);
     display: block;
-    width: 100vw;
+    width: 100%;
     
 }
 
-#wave2 {
+.wave2 {
     filter: invert(72%) sepia(0%) saturate(4941%) hue-rotate(288deg) brightness(109%) contrast(114%);
     display: block;
     rotate: 180deg;
-    width: 100vw;
+    width: 100%;
 }
 
 /* footer */
